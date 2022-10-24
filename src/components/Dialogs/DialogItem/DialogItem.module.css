@@ -1,0 +1,6 @@
+.dialog a {
+   display: flex;
+    color: darkcyan;
+    text-decoration: none;
+    margin-bottom: 10px;
+}

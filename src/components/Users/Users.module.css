@@ -1,0 +1,81 @@
+.user {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    padding: 20px;
+}
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    align-items: center;
+}
+
+.userInfo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+.userInfo button {
+    width: 90px;
+    height: 35px;
+    background-color: darkcyan;
+    color: wheat;
+    border-color: darkcyan ;
+}
+
+.userDescription {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid darkcyan;
+    border-radius: 20px;
+    width: 500px;
+    height: 90px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.userName {
+    font-size: 18px;
+    color: darkcyan;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.userStatus {
+    font-size: 14px;
+    color: darkcyan;
+}
+
+.userAddress {
+    font-size: 16px;
+    color: darkcyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+.pages span {
+    display: flex;
+    margin: 0 2px;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+.dialogsBlock img {
+    display: flex;
+    margin: 0 auto;
+}
+button:disabled {
+    background: #137a7a;
+}

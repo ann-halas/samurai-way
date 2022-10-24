@@ -1,0 +1,18 @@
+.header {
+    grid-area: header;
+    background-color: darkcyan;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header img {
+    height: 50px;
+    width: 50px;
+}
+
+.login a {
+    color: white;
+    text-decoration: none;
+}

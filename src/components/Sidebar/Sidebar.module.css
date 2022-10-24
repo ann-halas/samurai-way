@@ -1,0 +1,18 @@
+.sidebar {
+    grid-area: sidebar;
+    background-color: darkcyan;
+    margin-right: 15px;
+    padding: 10px;
+
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.item a.active {
+    color: wheat;
+}

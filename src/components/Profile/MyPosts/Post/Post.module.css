@@ -1,0 +1,15 @@
+.post {
+    padding: 15px;
+}
+.post_block {
+    display: flex;
+    align-items: center;
+    color: #3f3fc5;
+}
+
+.post img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
